@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f8f8;
+}
+.menu li {
+    list-style-type: none;
+    color: #593323;
+    font-family: serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.menu li a {
+    text-decoration: none;
+    color: #593323;
+}
+
+.heading {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: red;
+}
