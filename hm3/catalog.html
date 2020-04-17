@@ -8,31 +8,45 @@
 </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="index.html">Главная страница</a></li>
-        <li>Каталог</li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <hr />
-    <h1>Каталог</h1>
-    <br />
-    <a href="catalog/transformer.html"><img src="img/tr1.jpg" alt="трансформер" width="134" height="200" /></a><br />
-    <a class="link" href="catalog/transformer.html">Мольберт трансформер</a><br />
-    <br />
-    <br />
-    <br />
-    <a href="catalog/lira.html"><img src="img/lira1.jpg" alt="лира" width="134" height="200" /></a><br />
-    <a class="link" href="catalog/lira.html">Мольберт лира</a><br />
-    <br />
-    <br />
-    <br />
-    <a href="catalog/hlopushka.html"><img src="img/hlop1.jpg" alt="хлопушка" width="134" height="200" /></a>
-    <br />
-    <a class="link" href="catalog/hlopushka.html">Мольберт хлопушка</a>
-    <br />
-    <br />
-    <hr />
-    &copy;Все права защищены
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <h1 class="name">Molbertov.ru</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li>Каталог
+                        <ul class="catalog-menu">
+                            <li><a href="catalog/transformer.html">Трансформер</a></li>
+                            <li><a href="catalog/lira.html">Лира</a></li>
+                            <li><a href="catalog/hlopushka.html">Хлопушка</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Каталог</h1>
+            <div class="product product-transformer">
+                <a href="catalog/transformer.html"><img src="img/tr1.jpg" alt="трансформер" width="134" height="200" class="catalog-picture" /></a>
+                <br />
+                <a class="link" href="catalog/transformer.html">Мольберт трансформер</a></div>
+            <div class="product product-lira">
+                <a href="catalog/lira.html"><img src="img/lira1.jpg" alt="лира" width="134" height="200" class="catalog-picture" /></a>
+                <br />
+                <a class="link" href="catalog/lira.html">Мольберт лира</a></div>
+            <div class="product product-hlopushka">
+                <a href="catalog/hlopushka.html"><img src="img/hlop1.jpg" alt="хлопушка" width="134" height="200" class="catalog-picture" /></a>
+                <br />
+                <a class="link" href="catalog/hlopushka.html">Мольберт хлопушка</a>
+            </div>
+        </div>
+        <div class="footer">
+            &copy;Все права защищены
+        </div>
+    </div>
 </body>
 
 </html>
